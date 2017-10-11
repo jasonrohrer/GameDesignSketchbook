@@ -1,0 +1,126 @@
+Testing the limits of Single-Player
+
+by Jason Rohrer
+
+Go is often cited as a touchstone for profoundly deep gameplay that emerges from a shockingly simple set of basic game mechanics.  You can learn the rules in less than a minute, but you can spend the rest of your life plumbing the depths of this game.  Go is a game that you can return to over and over.  It will always have something new to show you.  It will never grow old.
+
+Isn't that an important part of what makes a work of art great---that you can return to it over and over throughout your life and reap additional value from it each time?  
+
+Video games that aspire to the heights of great art must carry their artistic weight in their gameplay, since those works that don't leverage gameplay for artistic purposes might just as well be executed in another medium.  Must great art games offer gameplay that you can return to over and over for the rest of your life?  Must great art games be Go-deep?
+
+As simple as Go's design is, Go-deep gameplay for art games---or even modern video games generally---seems to be a tough nut to crack.  Infinite replayability?  It's almost unheard of.  After you've honed your thumbs until they're pumping like well-oiled machines (in *Geometry Wars*), found every last collectible (in *Super Mario Galaxy*), or learned how to out-smart the AI (in *Starcraft*), can you really come back to a game in the future and find further value in it?
+  
+After you've figured out how the various shapes interact (in *The Marriage*) or solved every puzzle (in *Braid*), what more can these so-called art games offer on future replays?  Like works of art from other mediums, you can perhaps return endlessly to the task of interpretation.  Play *The Marriage* once now, while you're single, and again a few decades from now after at least ten years of real-life marriage---you'll probably find new meaning lurking.  With *Braid*, figuring out what it means might require a lifetime of deep contemplation.  But even these games, with all their depth of meaning, are mere gameplay puddles compared to an ocean like Go.  And it's not like these designers aren't trying.  Interesting gameplay was priority number one for Jonathan Blow with his design of *Braid*. 
+
+It turns out that deep gameplay isn't unique at all---for board games.  Chess, Othello, Checkers, and many other classic board games offer depth enough for a lifetime of interesting play.  More modern designs, like the German board games of the 1990s, offer hundreds of examples of simple mechanical systems with very deep emergent gameplay.  
+
+Where are video games going wrong, then?  Industry-wide design wisdom tells us to give the player interesting choices, and we really try to make games that do this, but somehow we're failing.  Can't we study these board games and learn from them?  We can and we have.  It seems that many of these board games create interesting choices out of several interlocking mechanics.  So, we add some interlocking mechanics to our video games, but we see very little added depth as a result.  We add layer upon layer of mechanics, but nothing seems to profound-ify our gameplay---nothing that will keep the player thinking and learning forever.
+
+What about *Tetris*?  There's a video game that you can come back to over and over.  Optimal play is probably unattainable (the game is known to be NP-hard---and that's assuming that you can see the entire future piece queue), and the speed-up as the levels progress provides an endless physical and mental challenge.  But gradual speed-up doesn't feel like the key to gameplay depth---it's a classic gimmick used in hundreds of arcade games to create eternal challenges.  Learning how to play *Centipede* well, for example, is akin to learning how to juggle more and more balls.
+
+Let's take the time factor out of *Tetris*---say that you get to think for as long as you want before placing each piece.  Would it still be an interesting game without the reflex challenge?  I think it would.  The randomness of the piece queue, combined with the optimization problem, makes every new game a fresh mental challenge.  What if we take out the randomization?  Suppose every game of *Tetris* presented you with a series of pieces in exactly the same order?  That would leave you with just a single instance of the optimization problem (how to best pack this particular series of objects into the well) to try over and over on subsequent games.  I believe this change would sap the gameplay depth out of *Tetris*, changing it into a scored puzzle.  After settling on the best way you can discover to pack that series of pieces into the well, you would quickly lose interest.
+
+So is that the key?  Randomization?  But the classic board games, like Go, don't involve any random elements.  The card game Solitaire does, though---each new game offers a new sequence of cards for a fresh mental challenge.  People can play thousands of games of Solitaire without exhausting its depth.
+
+Considering Solitaire finally leads us to answer our question about deep gameplay.  Why does Solitaire need randomization while Go does not?  What does Solitaire have in common with *Tetris*, *Centepede*, *Braid*, and almost all the other video games mentioned so far?  
+
+These are all single-player games, while all the deep board games require multiple players.  In fact, the vast majority of video games are single-player games.  Raph Koster has observed [LINK:  http://www.raphkoster.com/2006/02/10/are-single-player-games-doomed/] that the single-player tradition stemmed primarily from technological limitations---computers were not connected together in the early days, for example.  Koster's focus was on the absence of human contact in single-player games, but the absence of deep game mechanics is just as interesting.
+
+So it's two players that lets us wring limitless gameplay depth out of the incredibly simple mechanics of Go.  From a game theory perspective, this realization shouldn't seem surprising, since multiple players is an inherent part what that particular theory considers to be a "game" in the first place.  Game theory gives us examples of even simpler gameplay systems, like the Prisoner's Dilemma, that still provide deep strategic value.
+
+But "multi-player" is not just an ingredient that can be added to a game like yet another power-up.  Instead, multi-player is more like the fertile soil in which each gameplay system can grow and blossom into its unique, emergent potential.  The rules are like the DNA, and the sprawling space of possible gameplay is like the resulting organism.  Without multi-player, it seems that even the most complicated systems of mechanics become stunted and never blossom.
+
+So what do we, with our single-player video games, have instead?  Speed-based physical challenges, randomization, puzzles, character progression, and story advancement---lousy stand-ins for truly interesting gameplay.  Add to that list so-called "interesting choices," like what supposedly exist in games like *Bioshock* and *Deus Ex*.  If one choice is optimal, then the player will find it and ignore the rest.  If all choices are equal, then the player's choice doesn't matter.  In either case, the choice is not fundamentally interesting.  On the other hand, even a seemingly uninteresting choice---like "to snitch or not to snitch" from the Prisoner's Dilemma---becomes interesting when you need to take the possible choices of another player into account.
+
+But technology has changed since the early days that Koster talked about.  Computers, and even game consoles, are networked now.  Multi-player is possible, and with the prevalence of MMORPGs and arena-style FPSs, we might even say that it is the primary form taken by modern video games.  Next-Gen *is* multi-player, right?  But have we cracked the deep gameplay nut as a result?
+
+It seems that we've carried the old, single-player game models with us and simply bolted on "multi-player" as a feature.  FPSs, even against other humans, are primarily speed-based physical challenges, albeit with light tactical elements.  MMORPGs rely on the same old hook found in single-player RPGs:  character-advancement against progressively-harder monsters.  Yes, there's a new social element involved that is interesting in its own right, but in terms of deep gameplay, we still need to keep looking.
+
+Art games in particular carry on the single-player tradition, as do story-centric mainstream games, which also tend to have artistic aspirations.  Are we using other mediums, which are fundamentally single-viewer/reader, as a model for how an artistically-meaningful work should be consumed?  We can consume paintings, sculptures, films, books, plays, and music by ourselves.  Yes, we tend to discuss works at length with our companions, but companions are not a necessary component of the art experience.  You could still reap deep personal benefit from these works if you were alone on a desert island---though your Go set wouldn't do you much good.  
+
+So it seems that in our attempt to create works with which one can retire to one's study to consume and contemplate, we've chorded ourselves off in the shallow end of the gameplay pool.  Yes, game mechanics are unique to our medium, and we can certainly imbue single-player mechanics with profound artistic expression, but maybe we're missing the point.  Isn't the multi-player nature of games also fundamental and unique to our medium?
+
+As Koster pointed out, until the advent of video games, almost all games were multi-player.  Video games are a mere blip on the timeline compared to the 4000 year history of known games.
+
+Look around for single-player non-video games, and you'll find that they are almost non-existent.  On the one hand, you have the aforementioned Solitaire card games, which rely on randomness for depth.  On the other hand, you have Peg Solitaire in its various forms---no randomness, but another NP-hard optimization problem, like *Tetris* with a known piece queue.  If you ever win at Peg Solitaire, you have officially exhausted the game's depth, since you can then win every future game---if you can manage to remember the move sequence that resulted in a win.
+
+So is that what single-player games are doomed to be, at their intellectual best?  Puzzles with solutions that are too long to memorize?  Is there even such a thing as a single-player game?  How is card Solitaire in a fundamentally different class than Rubik's cube?  Turning to video games, how is Tetris, with the time challenge turned off, not a puzzle?  Does placing a time limit on Rubik's cube turn it into a game?
+
+One video game that I mentioned earlier is actually a special case.  *Starcraft*, and other realtime and non-realtime strategy games, are not subject to these same depth limitations, even in single-player mode.  But what does "single-player mode" for these games involve?  AI opponents---additional players controlled by the computer.  Though these games are famous for their endless depth when played against other humans, the mechanics can still blossom into interesting gameplay when you play against an AI.  You can only exhaust the depth of the single-player variant if you find a weakness in the AI that you can exploit to guarantee a win.  In that case, the problem is just that AI for such complicated games is not well developed.
+
+But AI for many less-complex games is very well developed.  So well developed, in fact, that for certain games, it can beat the best human players.  Consider Deep Blue, which defeated chess champion Garry Kasparov in 1997.  Thus, though your Go set may not be of much use on that desert island, having Deep Blue there with you would likely provide a (lonely) lifetime of interesting gameplay.  In fact, having two Deep Blues there, playing against each other, would be enough to plumb the interesting depths of Chess for a very long time.
+
+This discussion of AI highlights that the human factor is not what allows simple game mechanics to blossom.  It's not what humans bring to the game, but what two competing players bring---human or not---that allows the beautiful complexity and subtlety to emerge.  Granted, there is nothing like playing a good game against a good friend, but that social enjoyment---and seeing your friend's personality expressed through his or her gameplay---is not a fundamental component of Go-like depth.  Go's depth exists separate from the personalities that play it, like a property of the universe just waiting to be discovered if ever two entities sit down, in opposition, to explore it.
+
+But modern single-player video games, both fringe and mainstream, have almost completely abandoned AI as a game feature.  Yes, enemies in most 3D games are equipped with rudimentary path-finding, planning, and randomized behavior, but it's nothing like what an AI does for chess.  These mainstream AIs are essentially trying to mimic believable human behavior, not providing an opponent with which you can explore the depths of the game mechanics.
+
+So is AI the key to interesting single-player video games?  Is that what video games bring to the table in the face of the 4000-year history of non-video games?  Aha!  We can finally play games by ourselves, against a computer!
+
+That seems like a very sad niche for video games to fill.  However, when we support multiple human players, video games do add something new:  automatic book-keeping to handle more complexity and eliminate tedium.  A game like *Age of Empires II* would be completely impractical as a board game, but it works wonderfully as a multi-player video game.  Of course, additional complexity does not necessarily add depth, and complexity that the players can't understand adds no depth at all.  However, computerized strategy games have proven that we can in fact handle more complexity than board games might reasonably provide.   
+
+The discussion of AI adds a final wrinkle to include in this article's fundamental question, which I will now pose explicitly here:
+
+Can you make an AI-free, randomness-free, physical-challenge-free, single-player game with gameplay depth akin to that of Go?
+
+Is there any hope for the single player art game that seeks to provide that kind of depth at the gameplay level?
+
+I now firmly believe that the answer is "no."  The proof comes from considering how one might go about winning, or doing well at, such a game.  If there is a single, optimal path to victory, then systematically finding that path is the main task in the game.  Once the path has been discovered and documented for future use, the game's depth is exhausted.  If there are multiple possible paths to victory, finding the rest after you've found one is an optional act of completionism---an exploration of mechanical depth, certainly, but to what end?  That kind of exploration must be motivated by factors outside of the game system, since a game cannot intrinsically demand anything more than victory.
+
+One school of art game design seeks to enable exactly this kind of multi-path exploration as a hook on which to hang interpretation:  there's no one right way to play, so why did you just play the way that you did?  Don't you want to explore all the other ways to play and think about what those ways might mean?
+
+But making games that demand this kind of meta-play for full appreciation seems to undermine the fundamental nature of games---games are about winning, and the process of figuring out how to win should itself unveil whatever artistic expression is present.  Go demands that you search its depths if you hope to do well---there's nothing optional about that exploration.  Single-player games that offer no right way to play are in fact just puzzles that can be solved in multiple ways.
+
+What about games that offer you a score instead of a binary win/loss condition?  What if you can always do a bit better each time you play?  For AI-free, non-random, non-twitch games, this leaves us with an optimization problem instead of a puzzle.  But optimization problems engender a systematic approach that feels more like analysis than gameplay.  The gameplay interest is lost after a few rounds of optimization, when the player essentially says, "I've learned enough to improve substantially, and if I keep trying, I could probably raise my best score even more, but what's the point?"
+
+So that's the fundamental question, and you have my answer to that question.  But my answer to that question didn't stop me from trying to make such a single-player game anyway. 
+
+I've tried to create the deepest possible single-player, abstract strategy game that I could.  I went with a score for a success metric, because a binary win/loss condition felt too much like a straight puzzle.  
+
+The main thing that I noticed during the design process was how incredibly hard it was to wring even the tiniest bit of depth out of any single-player mechanics.  I tried out many possible mechanical systems, but most revealed degenerate cases that led to infinite scores or trivial strategies that led to nearly optimal scores.  Even after ironing out these problems, it was often easy for me to find a strategy for doing well at the game and then be unable to improve upon that strategy through modification---a quick ascent to a local maximum.  Adding more layers of mechanics didn't ever seem to help the gameplay.  In the end, after finally discovering a mechanic that had some depth to it, removing almost all of the other mechanics made room for that one interesting mechanic blossom to its fullest potential. 
+
+This felt like a sharp contrast to my experience designing two-player games, where it seemed that I could pretty much slap down any old mechanics and see quite a bit of depth emerge.  Go's extreme mechanical simplicity may seem like a special case, but deep, simple, multi-player mechanics are the more the rule than the exception.  For example, using Go equipment, there are even simpler games that offer similar depth, like Gomoku and Hex.
+
+During the design process, I was aware that almost any of the failed single-player mechanics I was exploring would have instantly leaped to life in a two-player environment.  The degenerate, trivial-high-score strategies would melt away as the opposing player found simple counters for those strategies.
+
+The resulting game, what I've called *i45hg* (a nonsense name, so don't read into it), is reasonably interesting, at least for a few plays.  Still, the play experience is much more akin to chipping away at an optimization problem than playing a real game.  Once you discover a reasonable heuristic, you will likely lose interest quickly.  Oh, and as a reference point, my high score, so far, is 84.
+
+[screen0.png]
+
+Could it exist as a board game?  Yes, but with a good deal of tedious bookkeeping for tallying points and computing the results of a move.  *i45hg* is much better suited for play on a computer.  So what is this thing that I created?  A *video puzzle*?
+
+A full description of the rules can be found below.
+
+I'm now left thinking that single-player video games are a dead-end, albeit a tempting dead-end, and I'll pose one final question in closing:  what would a multi-player art game be like?
+
+
+[download link here]
+
+
+The Rules of *i45hg*
+
+During each turn, you must place nine white stones on vacant blue squares.  After placing the stones, and possibly retracting and replacing white stones lingering from previous turns, clicking the green arrow will commit your moves.  During the commit process, various transformations take place and points are tallied.  You then you move on to your next turn, placing nine more white stones.  The following three rules govern the commit phase:
+
+1.  A white stone that is adjacent to one or more black stones scores a point.
+
+2.  A white stone that has less than three white neighbors becomes black.
+
+4.  A square that has three or four black neighbors is removed from the game (replaced with a blank, unusable square).
+  
+ 
+The game gives you hints about the effect of your move before you commit.  For example, white stones that will become black, due to rule 2, are marked with gray:
+
+[screen1.png]
+
+Squares that will be removed, due to rule 3, are marked as ghosted blank squares.  In the following picture, the empty square near the middle is adjacent to three white stones that will become black when the move is committed:
+
+[screen2.png]
+
+Note that ghosted blank squares do not block the placement of white stones during your turn.
+
+White stones that will score points are marked with orange.  The following picture shows all the hints in conjunction.  Eight of the white stones will become black, so they are marked with gray.  Six of the white stones, including four that are marked with gray, have black neighbors, so this turn will score six points when it is committed.  Four squares will have three or more black neighbors after this turn, so they will be removed.
+
+[screen3.png]
+
+After the above turn is committed, the game would look like this:
+
+[screen4.png] 

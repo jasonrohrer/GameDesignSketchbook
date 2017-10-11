@@ -1,0 +1,52 @@
+Idealism
+
+by Jason Rohrer
+
+In my past life, I was a free software zealot.  Free as in "freedom," not as in "free beer."  You know---open source, no patents, copyleft, and that kind of thing.
+
+I am still a free software zealot, but now something has changed.  It used to matter to my software community that I adhered to this ideal, and now it no longer does, because I switched communities somewhere along the way.  
+
+I used to be an internet systems programmer.  In that arena, free software ruled the roost.  Think of all the big names:  Apache, PHP, MySQL, Perl, and FireFox, not to mention the operating system that powers the vast majority of web servers, GNU/Linux.  If you release internet systems software without the source code, you stand to get a lot of flack from the community.
+
+These days, of course, I mostly travel in game-programming circles.  Free software isn't even on the radar for most of these people.  Sure, free indie games abound, but how many of them are open source?  How many are free as in "freedom"?  Almost none.  Game programmers keep close guard over their development techniques, for whatever reason, even if they give the end result away for free.  When I've tried to talk some of my colleagues into releasing the source for their games, I've made little headway.
+
+Regardless, I've held on to my ideals, and I continue to release the source code for all of my games.  Furthermore, I've strived to use only open-source tools when making my games.  My websites make these ideals clear, discussing the tools that I used to make each game and providing links to my source code.
+
+In my past life, this kind of asceticism (try to imagine life without Photoshop) garnered a bit of applause.  In the games community, it's completely ignored.
+
+Last month, I released *Perfectionism*, my first piece of software---ever---that was made with a non-free tool (Game Maker) and that runs only on a non-free operating system (Windows).  How was this compromise of ideals greeted?  By boos?  By hisses?  Not at all.  No one seemed to notice.  I did receive a handful of complaints from Mac users, but they didn't mention the free software issue at all.
+
+Where did I pick up this ideal in the first place?  From the community that I used to be part of.  Ideals can be contagious, and social pressure is a powerful force.  But what happens when the society around you changes?  How can you tease your true ideals apart from those that have simply rubbed off onto you?  Politicians face an acute form of this dilemma as they try to balance their personal values with the fluctuating desires of their constituents.
+
+The following question is even more interesting:  What happens when your ideals, be they socially-induced or true, stand in the way of one of your goals?
+
+*Idealism* attempts to explore these issues through game mechanics.
+
+Like *Perfectionism*, this is a self-documenting design, where the game teaches you how to play as you go along.  Thus, you should download and play it now before reading further.
+
+[link to download here]
+
+I set out to design a game system where non-player entities would help you in some way toward your goal, but only if you adhered to a certain ideal play style.  If you violated the ideal, the helpers would stop helping you and perhaps even turn against you.  Additionally, respecting the ideals would generally make your goal more difficult to achieve.  Thus, you would have a choice:  take the high, hard road, with help from the community, or take the easier, less-idealistic road, and receive flack for it.
+
+The context for this choice would be the process of a changing community.  As the game progressed, I wanted the helpers to gradually become less and less significant.  You might learn to play by their ideals early on in the game, but would you continue to respect the ideals after the helpers are gone?
+
+I explored several mechanical frameworks for the design before finally settling on an arena shooter with obstacles.
+
+[screen.png]
+
+You control the white icon, and your goal in each level is to reach the blue asterisk.  The red objects are enemies, and contact with them resets the level and sends you back to your starting location.  The green diamonds initially help you by shooting at the enemies.  The green blocks represent ideals, and they are destroyed if you touch or shoot them.  When successive ideals are destroyed, the helpers first stop shooting enemies, then start shooting at you, and eventually start launching heat-seeking missiles at you.  You have a limited amount of time to complete the game, and the number of asterisks you reach during that time determines your score.  
+
+In the level shown above, you can take the long and winding path, respecting the ideals, but this will burn up a lot of valuable time.  A much faster path is available, if you're willing to violate the ideals, but then you must deal with antagonism from the helpers.
+
+I'm a fan of arena shooters, but there are a few things that annoy me about most of them.  First, their controls, especially on a computer without joysticks, are incredibly difficult to master (four keys per hand---ouch!).  Several recent games try to incorporate mouse aiming in various ways, but nothing that I've seen has completely solved the control problem.  Second, though they require quite a bit of strategy for good play, they are often too overwhelming to permit time for thinking.  These factors limit the appeal of arena shooters to people with refined twitch reflexes.  I didn't want to make a game that most people couldn't play, so added some twists to the controls and interface.
+
+First, for controls, *Idealism* experiments with a click-to-move interface and allows free aiming and shooting with the mouse and space bar while you are moving.  This control scheme makes the game much easier to play on a mouse-and-keyboard computer.
+
+Second, I constructed a system in which time only passes when you are moving or shooting.  This is akin to an auto-pause whenever you stop moving, and it allows you to catch your breath, survey the play field, and plan the next leg in your course of action.  It also prevents you from burning time while you are thinking.  In this game, you can think as long as you want, but these thinking breaks are sandwiched between realtime sequences with all the dynamics that they entail.  For this twist in particular, it was shocking to observe its effect on game difficulty.  Enemy-filled areas that were once nearly impossible to navigate became easy when you were given a chance to think and plan.
+
+This makes me wonder about game difficulty generally.  How many games are difficult only because of their controls and their interfaces?  I'm reminded of an old indie game, *Wik and the Fable of Souls*, which essentially said, "Hey, jumping from platform to platform does not have to be hard," and provided a novel control scheme that makes it easy.     
+
+I must still be in the honeymoon period with Game Maker, because it's still exceeding my expectations.  Of course, it's not free software, and that bothers me a bit.  Here I've made a game about idealism by using a tool that doesn't satisfy my own ideals.
+
+But for the record, I still believe in free software.  I'm just taking a small short cut toward an otherwise-unreachable goal.
+

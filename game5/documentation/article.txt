@@ -1,0 +1,29 @@
+Regret
+
+by Jason Rohrer
+
+The journalist would be watching me work and live for a week, and he wanted to see my game design process from start-to-finish.  I knew that I would be working on my next Sketchbook game while he was visiting, so I suggested that he come up with a topic for the game---a surprise design challenge.
+
+He arrived at my home on Monday with several topics in hand:  "torture policy," "originality," "ego," "smear fighting,"  "stop snitching," and "stop-and-frisk."  The richest topics on his list seemed to be the last two---those that connected with the imminent problem of gun violence in his home city of Philadelphia.  However, *Police Brutality* just came out of my stables in May, and another cop game would make me feel like I was stuck in a rut.
+
+On the spot, he added another topic to the list:  "promiscuity," you know---the pleasure of extramarital variety balanced against the pain of guilt.  We parted ways that evening without settling on a topic.  By Tuesday morning, after tossing out the cop-related topics, I had settled on the idea of a game parable about torture.  However, the journalist returned with some more ideas, and after a few hours of tangent-laden discussion, we settled on a topic:  "regret."
+
+Regrets can pop into your mind years after a regrettable event.  I'm still haunted by regrets lingering from grade school---still kicking myself for saying something stupid at just the wrong time.  The journalist's personal experience was similar.
+
+Regrets often center on mistakes that were unavoidable at the time.  Though you can learn from each mistake that you make, it's not clear that regretful thinking is valuable:  what you learn by reliving a regrettable event may not end up being helpful next time you're faced with a similar situation in real life.  Regrets can bog you down as they accumulate over the years, and their net effect can become mentally paralyzing.
+
+I wanted to make a game about how regret feels, but not necessarily about how to overcome regret.  We both agreed that we should avoid the Deepak Chopra self-help angle.
+
+My initial design ideas used 2D-platform mechanics as a foundation.  Imagine making a mistake like missing a jump, but not dying from that mistake.  Instead, imagine that mistake coming back to haunt you, forcing you to replay that jump again in the future.  Imagine a level that becomes longer and longer as the regrettable past portions of the level are injected ahead of you---a future populated by past mistakes that you must replay.
+
+Using familiar mechanics as a foundation can work, but I'm more interested in devising new mechanics that are the best possible fit for the topic at hand.  I cast the net a bit wider and came up with the design that we settled on.  Yes, it involves feeding animals.  Oh---and killing them, too.
+
+[insert image:  screen.png]
+
+By the end of the day on Tuesday, we had a finished design on paper.  Over the next several days, I turned the design into a working game with Game Maker, and the journalist watched over my shoulder.  Friday, my official Escapist deadline and the day that the journalist went home, came and went, and the implementation process stretched through the weekend.
+
+By the following Monday, I had fully implemented the original design, but play-testing revealed a lack of meaningful player choices, not to mention no success metric.  What I had was not really a game, at least not by my definition, and it also didn't capture what is interesting about regret.  After some more thinking about the choices that regret entails, and after five incremental revisions to the implementation that the journalist reviewed remotely via email, I'm ready to present you with *Regret*, a game about leaving the past behind you:
+
+[download link]
+
+I enjoyed my week under the eye of the journalist---we had lots of good laughs, especially as the design of *Regret* took shape.  But there's this one stupid thing that I wish I hadn't said to him, and more than a week later, I'm still kicking myself over it.  That one memory keeps popping up and gnawing at me, like the ghost of a hungry squirrel. 

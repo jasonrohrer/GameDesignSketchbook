@@ -1,0 +1,45 @@
+Perfectionism
+
+by Jason Rohrer
+
+It was 10:30 p.m. on February 29, 2008.  I had just finished building *Gravitation* Version 1 for all platforms, packaging each build, posting the builds on SourceForge, and composing the web site.  That process -- the very tail end of my software development cycle -- takes me about an hour.  At that point, I was finished with the release and feeling good.
+
+But then I did something that I really should never do.  After testing the downloads, to make sure the files weren't corrupted, I decided to spend eight minutes playing the game one last time before going to bed.  At the tail end of this final playtest, I noticed a detail about the game that was not quite right.  It was subtle, and certainly not a full-blown bug, but it wasn't perfect.  
+
+I'll summarize the defect briefly.  At the end of the game, if players continued holding down the movement keys as the title screen faded in, a new game would be triggered very quickly by their unwitting key presses, barely giving the players a chance to notice that their first game had ended.  Of course, this was a glitch that most players would probably not encounter.  And even for those who would encounter this rough spout, it wouldn't spoil the game itself, but would just make the ending a bit confusing.  Should I fix this problem?  I was torn.
+
+On one hand, I was tired of working on this game, particularly so late at night after a long day.  On the other hand, I knew that my mind wouldn't let him me sleep if this glitch was out there in the world.  I simply couldn't bear the thought of even a single person having their play experience confused by this imperfection.
+
+So I set to work, fixing the code and going through the entire build/package/post process over again.  By 11:30 p.m. on February 29, I had released *Gravitation* Version 2.
+
+This experience got me thinking about my own perfectionism.  When is a project really done?  How much polish should be applied?  Is there a law of diminishing returns?  Is it sometimes better to ignore a small flaw than to spend a large amount of time fixing it?
+
+The trap of perfectionism is particularly treacherous for computer programmers, since we're saddled atop of Turing-complete programming languages that are capable of doing almost anything.  Every bug is fixable.  Every behavioral rough spot can be smoothed over with just a bit more coding, a smidgen of extra special-case logic.  Programming isn't like carving something out of marble, where if your sculpture's nose is too small, you must either live with it or start over with a fresh block of marble.  Our code bases can be massaged indefinitely.
+
+In designing a game to explore this issue, I thought about players tweaking some set of game objects toward a goal, but forcing them to decide how far toward the goal they needed to go.  If we give the players multiple sets of game objects and goals, and force them to divide their limited time among these "subprojects," they will need to make interesting decisions about which projects to polish, which to leave flawed, in which to skip completely.  This is quite different from traditional level-based game designs, where players must finish a given level before moving on to a subsequent level.
+
+Since the message in this game would be carried by the overall level-to-level structure, the core game mechanic didn't matter all that much, as long as it allowed for some form of progressive refinement.  I settled on a rather simple column- and row-swapping mechanic that does the job nicely.  Along with supporting progressive refinement, this mechanic's emergent properties are complex enough to be interesting, while not so complex as to be overwhelming.  I've never seen this particular mechanic before, but I'm not sure that it's novel.  I can imagine a match-3 game employing this kind of column and row swapping. 
+
+[screen.png here]
+
+Using the white tabs at the top of the grid, players can select two columns to swap.  Likewise, they can select two rows to swap using the tabs on the left side of the grid.  Swapping a row with a column is not permitted.  During a swap, the yellow disks slide with their column or row, while the yellow rings remain fixed.  The rings are essentially targets that the players are trying to hit with the disks.  One point is awarded for each disk that lines up with a ring.  The point is lost again if the disk is moved away from the ring.  The yellow number on the screen is the current score.
+
+Players can move between levels using the green arrows at the bottom of the screen.  A given level can be revisited any number of times and refined throughout the game.
+
+The green number shows the moves remaining, and each column or row swap counts as one move.  Switching between levels also decrements the move counter, so switching back and forth between levels is not without cost.  When the green number reaches zero, the game ends.
+
+I designed 21 levels for the game.  Taking a page from the design of *Mr. Heart Loves You Very Much*, the sequence of levels gradually teaches you about the nuances of the game mechanics one step at a time.  Thus, no instructions, let alone a tutorial, are needed to learn the game.  As anecdotal proof of this claim, note that my spouse, a certified non-gamer, was able to learn how to play the game with no instruction.  *Perfectionism* is intended to be a self-documenting game design.
+
+After players learn about the game mechanics in the early levels, they will encounter more advanced levels that focus on the exploration of perfectionism.  For example, in the following level, four points can be easily scored with two obvious column swaps, but the fifth point cannot be obtained without several additional column and row swaps.  Is it worth it?
+
+[screen2.png]
+
+More than half of the levels were designed to express some particular consequence of the game mechanics, including consequences that relate to perfectionism.  The remaining levels present variations on these expressions.  The notion that a game level might communicate something to the player is rather new---we're not used to asking, "Now what is this level trying to tell us?"  I credit Jon Blow's *Braid* design for stirring me to think in this direction.
+
+*Perfectionism* was supposed to be a 1-week prototype.  To implement the game, I used Game Maker, and this was my first experience with the tool (I programmed all of my previous games in C++ and used OpenGL or SDL for graphical displays).  I was shocked at how much I accomplished in a mere 16-hours of logged development time, and I'll just state it flat out:  Game Maker is an astounding piece of software.  
+
+Doing simple things in Game Maker is easy, while doing more complicated things is always possible.  It's not that making a game in Game Make involves no programming, since defining object behavior is close to impossible without some sort of program-like construction (albeit a visual, point-and-click kind of programming).  It's that all of the bookkeeping, such as tracking object instances and their states, is handled for you in a very elegant way.  The other impressive thing about Game Maker, given its complexity, is that it seems to be bug-free.  Everything just works, and it often works in a more intelligent way than you might expect.  Now if only Game Maker was open-source, or at least platform independent, I'd be in heaven.  Yes, this is a Windows-only game, alas, and the first of its kind to emerge from my stables.
+
+After an ironically long night of final tweaking and polishing, I give you *Perfectionism*, a game about tweaking and polishing.
+
+Hmm... maybe I should playtest it one last time.
